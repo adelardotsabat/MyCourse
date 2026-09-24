@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_materi"
+        android:orderInCategory="200"
+        android:title="Materi"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_quiz"
+        android:orderInCategory="300"
+        android:title="Quiz"
+        app:showAsAction="never" />
+</menu>
