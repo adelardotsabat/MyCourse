@@ -1,15 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme (Tanpa ActionBar) -->
+    <!-- Base application theme (Tanpa ActionBar bawaan) -->
     <style name="Base.Theme.MyCourse" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Lu bisa kustomisasi warna light theme di sini -->
+        <!-- kustomisasi warna utama di sini -->
+        <item name="colorPrimary">@color/purple_500</item>
     </style>
 
-    <!-- Base application theme dengan ActionBar -->
+    <!-- Base application theme DENGAN ActionBar -->
     <style name="Base.Theme.MyCourse.WithActionBar" parent="Theme.Material3.DayNight">
-        <!-- Kustomisasi warna ActionBar di sini -->
+        <!-- kustomisasi tema dengan ActionBar di sini -->
+        <item name="colorPrimary">@color/purple_500</item>
     </style>
 
-    <!-- Theme utama yang bakal dipanggil di Manifest -->
+    <!-- Theme alias yang dipanggil di AndroidManifest.xml -->
     <style name="Theme.MyCourse" parent="Base.Theme.MyCourse" />
     <style name="Theme.MyCourse.WithActionBar" parent="Base.Theme.MyCourse.WithActionBar" />
 </resources>

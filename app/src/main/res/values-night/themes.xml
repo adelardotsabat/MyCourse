@@ -1,11 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme untuk Mode Gelap (Tanpa ActionBar) -->
+    <!-- Base application theme untuk Night Mode -->
     <style name="Base.Theme.MyCourse" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Lu bisa kustomisasi warna dark theme di sini -->
+        <!-- kustomisasi warna dark mode -->
     </style>
 
-    <!-- Base application theme untuk Mode Gelap (Dengan ActionBar) -->
     <style name="Base.Theme.MyCourse.WithActionBar" parent="Theme.Material3.DayNight">
-        <!-- Kustomisasi warna ActionBar mode gelap di sini -->
+        <!-- kustomisasi dark mode dengan ActionBar -->
     </style>
 </resources>

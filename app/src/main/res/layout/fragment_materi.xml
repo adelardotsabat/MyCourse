@@ -34,7 +34,7 @@
             android:layout_marginTop="8dp"
             android:background="#F0F0F0"
             android:padding="12dp"
-            android:text="2. Layouting dengan ConstraintLayout dan LinearLayout"
+            android:text="2. LinearLayout"
             android:textStyle="bold" />
 
         <!-- Item 3 -->
@@ -44,7 +44,7 @@
             android:layout_marginTop="8dp"
             android:background="#F0F0F0"
             android:padding="12dp"
-            android:text="3. Activity, Intent dan Passing Data"
+            android:text="3. RelativeLayout"
             android:textStyle="bold" />
 
         <!-- Item 4 -->
@@ -54,7 +54,7 @@
             android:layout_marginTop="8dp"
             android:background="#F0F0F0"
             android:padding="12dp"
-            android:text="4. Implementasi Fragment dan Lifecycle"
+            android:text="4. ConstrainLayout"
             android:textStyle="bold" />
 
         <!-- Item 5 -->
@@ -64,7 +64,7 @@
             android:layout_marginTop="8dp"
             android:background="#F0F0F0"
             android:padding="12dp"
-            android:text="5. Options Menu dan Navigation"
+            android:text="5. Activity dan Intent"
             android:textStyle="bold" />
 
         <!-- Item 6 -->
@@ -74,7 +74,16 @@
             android:layout_marginTop="8dp"
             android:background="#F0F0F0"
             android:padding="12dp"
-            android:text="6. ViewPager2, TabLayout dan Custom Styles"
+            android:text="6. UI Component"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#F0F0F0"
+            android:padding="12dp"
+            android:text="7. Style, Option Menu dan Tabs Layout"
             android:textStyle="bold" />
 
     </LinearLayout>
