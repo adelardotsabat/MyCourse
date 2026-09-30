@@ -1,33 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:padding="32dp"
+    android:padding="16dp"
     tools:context=".HomeFragment">
 
-    <TextView
-        style="@style/CustomTextView18Bold"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="Menu" />
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_oop"
-        style="@style/CustomRoundedButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="MATERI OOP" />
+        <!-- Banner Gambar Kelas -->
+        <ImageView
+            android:id="@+id/img_course_banner"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/classroom_logo"
+            android:contentDescription="Banner Kelas Praktikum" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_android"
-        style="@style/CustomRoundedButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="MATERI ANDROID" />
+        <!-- Nama Kelas -->
+        <TextView
+            android:id="@+id/tv_course_title"
+            style="@style/CustomTextView18Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Praktikum Perangkat Bergerak Dasar B1"
+            android:textSize="20sp" />
 
-</LinearLayout>
+        <!-- Deskripsi Kelas -->
+        <TextView
+            android:id="@+id/tv_course_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:lineSpacingExtra="4dp"
+            android:text="Selamat datang di kelas Praktikum Perangkat Bergerak Dasar! Pada mata kuliah ini, Anda akan mempelajari konsep dasar hingga lanjutan pengembangan aplikasi Android menggunakan Kotlin, ViewPager2, TabLayout, Fragment, serta penerapan Custom Style pada UI."
+            android:textColor="#555555"
+            android:textSize="14sp" />
+
+        <!-- Contoh Implementasi Custom Rounded Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_start_learning"
+            style="@style/CustomRoundedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Mulai Belajar Sekarang" />
+
+    </LinearLayout>
+</ScrollView>

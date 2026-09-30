@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".QuizFragment">
+
+    <!-- Gambar Ilustrasi Empty State -->
+    <ImageView
+        android:id="@+id/img_empty_quiz"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/empty_quiz"
+        android:contentDescription="Quiz Belum Tersedia" />
 
     <TextView
         style="@style/CustomTextView18Bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Ini Halaman Quiz" />
-</FrameLayout>
+        android:layout_marginTop="16dp"
+        android:text="Belum Ada Quiz" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Kuis untuk mata kuliah ini belum dilaksanakan. Silakan cek kembali secara berkala!"
+        android:textColor="#777777"
+        android:textSize="14sp" />
+
+</LinearLayout>

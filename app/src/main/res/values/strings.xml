@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Course</string>
+    <string name="app_name">MyCourse</string>
     <string name="tab_text_1">Home</string>
     <string name="tab_text_2">Materi</string>
     <string name="tab_text_3">Quiz</string>

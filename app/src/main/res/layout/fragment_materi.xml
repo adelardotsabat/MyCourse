@@ -1,12 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MateriFragment">
 
-    <TextView
-        style="@style/CustomTextView18Bold"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Ini Halaman Materi" />
-</FrameLayout>
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/CustomTextView18Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Daftar Materi Praktikum" />
+
+        <!-- Item 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F0F0F0"
+            android:padding="12dp"
+            android:text="1. Pengenalan Kotlin Dasar dan Android Studio"
+            android:textStyle="bold" />
+
+        <!-- Item 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#F0F0F0"
+            android:padding="12dp"
+            android:text="2. Layouting dengan ConstraintLayout dan LinearLayout"
+            android:textStyle="bold" />
+
+        <!-- Item 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#F0F0F0"
+            android:padding="12dp"
+            android:text="3. Activity, Intent dan Passing Data"
+            android:textStyle="bold" />
+
+        <!-- Item 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#F0F0F0"
+            android:padding="12dp"
+            android:text="4. Implementasi Fragment dan Lifecycle"
+            android:textStyle="bold" />
+
+        <!-- Item 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#F0F0F0"
+            android:padding="12dp"
+            android:text="5. Options Menu dan Navigation"
+            android:textStyle="bold" />
+
+        <!-- Item 6 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#F0F0F0"
+            android:padding="12dp"
+            android:text="6. ViewPager2, TabLayout dan Custom Styles"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
